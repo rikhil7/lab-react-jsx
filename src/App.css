@@ -1,1 +1,22 @@
 /* add your styles here */
+.parent_div{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* justify-content: center; */
+    gap: 20px;
+    /* align-items: center; */
+    justify-items: center;
+    margin-bottom: 3vmin;
+
+}
+.image{
+    width: 45vmax;
+    /* height: 400px; */
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vmin;
+}
